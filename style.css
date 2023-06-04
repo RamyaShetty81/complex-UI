@@ -1,32 +1,56 @@
-.carousel-item img{
-    height: 95vh;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --font-family: 'Lato', sans-serif;
 }
 
 .carousel-indicators [data-bs-target]{
-    background-color: transparent!important;
+  background-color: transparent!important;
 }
 
 .image-wrapper{
-    display: flex;
+  display: flex;
 }
-
 .image-wrapper img{
-    height: 30vh;
+  height: 30vh;
 }
 
 .card{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 
 .btn:hover{
-    color: #0b5ed7!important;
-    border: 1px solid #0b5ed7;
-    background-color: #fff!important;
+  color: #0b5ed7!important;
+  border: 1px solid #0b5ed7;
+  background-color: #fff!important;
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
-    .image-wrapper .container{
-        width: 50%;
-    }
-    
+@media screen and(min-width: 576px) and (max-width: 768px){
+  .image-wrapper .container{
+    width: 50%;
+  }
+}
+
+@media screen and(min-width: 320px){
+
+  header .container{
+    width: 100%;
+  }
+
+  .image-wrapper .container{
+    width: 50%;
+  }
+}
+
+@media screen and(min-width: 1080px){
+
+  header .container{
+    width: 100%;
+  }
+  
+  .image-wrapper .container{
+    width: 50%;
+  }
+  
 }
