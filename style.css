@@ -15,9 +15,35 @@
   height: 30vh;
 }
 
+.img-fluid {
+  
+  height: -webkit-fill-available;
+}
+
+.sec2{
+  height: 350px!important;
+}
+
+.w-100 {
+  width: 100%!important;
+  height: 500px;
+}
+.i2, i1{
+  width: -webkit-fill-available !important;
+}
+.ig1{
+  height: 1200px !important;
+}
+
+.a{
+  height: 285px !important;
+}
+
+
 .card{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 
 
 .btn:hover{
